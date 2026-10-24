@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ToolVault",
+      "hasCanvas": false,
+      "bodyTextLen": 1454,
+      "bodyTextHash": "e8a969cc9b070a6a13d0b6ca673fc39f27560c436205b82cfee7d8002729e920",
+      "bodyTextPrefix": "Skip to content ToolVault Editor 0 $josephdaniel20 ToolVault Pre",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ToolVault",
+      "hasCanvas": false,
+      "bodyTextLen": 1447,
+      "bodyTextHash": "be045ec9cd8c5e284f732051e8176aa40ee48404f86b72aeb5ac94f387a12a1f",
+      "bodyTextPrefix": "Skip to content ToolVault 0 $josephdaniel20 ToolVault Premium di",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

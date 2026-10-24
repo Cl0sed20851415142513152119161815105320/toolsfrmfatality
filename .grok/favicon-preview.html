@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8" />
+<style>
+  body { margin: 0; background: #d5d8d6; display: flex; gap: 28px; align-items: flex-end; padding: 28px; }
+  figure { margin: 0; text-align: center; font: 12px sans-serif; color: #222; }
+  img { display: block; background:
+    linear-gradient(45deg, #9aa39c 25%, transparent 25%),
+    linear-gradient(-45deg, #9aa39c 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #9aa39c 75%),
+    linear-gradient(-45deg, transparent 75%, #9aa39c 75%);
+    background-size: 8px 8px;
+    background-position: 0 0, 0 4px, 4px -4px, -4px 0;
+    background-color: #f3f6f4;
+  }
+  .s16 { width: 16px; height: 16px; image-rendering: pixelated; }
+  .s32 { width: 32px; height: 32px; image-rendering: pixelated; }
+  .s64 { width: 64px; height: 64px; }
+  .s180 { width: 180px; height: 180px; }
+</style>
+<figure><img class="s16" src="file:///workspace/public/favicon.svg" /><figcaption>16</figcaption></figure>
+<figure><img class="s32" src="file:///workspace/public/favicon.svg" /><figcaption>32</figcaption></figure>
+<figure><img class="s64" src="file:///workspace/public/favicon.svg" /><figcaption>64</figcaption></figure>
+<figure><img class="s180" src="file:///workspace/public/favicon.svg" /><figcaption>180</figcaption></figure>
